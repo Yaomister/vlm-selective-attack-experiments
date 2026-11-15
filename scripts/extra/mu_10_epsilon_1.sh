@@ -11,7 +11,7 @@
 source scripts/sweep_common.sh
 
 STEP=2000
-MU=1
+MU=10
 EPSILON=1
 
-run_attack LLaVA-1.5-7b mu_1_epsilon_1
+run_attack LLaVA-1.5-7b mu_10_epsilon_1
